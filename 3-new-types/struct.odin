@@ -15,10 +15,8 @@ Person :: struct {
 main :: proc(){
     person := Person{
         name = "Kurt Angle",
-        stats = Person_Stats{
-            health = 9000,
-            age = 32,
-        },
+        health = 9000,
+        age = 32,
     }
 
     fmt.println(person.name, person.age, person.health)
