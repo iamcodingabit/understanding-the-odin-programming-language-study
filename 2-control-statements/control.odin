@@ -5,7 +5,7 @@ import "core:fmt"
 //fixed arrays
 main :: proc(){
     numbers := [10]int{
-        6, 4, 7, 10, 1, -1, -9, 100, 1, 54,
+        6, 4, 7, 10, 1, -1, -9, 100, 1, 54
     }
 
     cmp := 6
