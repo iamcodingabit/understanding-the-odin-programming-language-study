@@ -11,10 +11,19 @@ Rectangle :: struct {
 
 main :: proc(){
     rectangle := Rectangle{
-        x = 20,
-        y = 10,
         width = 20,
         height = 10,
+    }
+
+    rectangle = {
+        x = 10,
+        width = 5,
+        height = 7,
+    }
+    
+    rectangle = {
+        20, 20,
+        200, 200
     }
 
     fmt.println(rectangle)
