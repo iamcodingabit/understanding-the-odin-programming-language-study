@@ -8,7 +8,7 @@ Person_Stats :: struct {
 }
 
 Person :: struct {
-    stats: Person_Stats,
+    using stats: Person_Stats,
     name: string,
 }
 
@@ -21,5 +21,5 @@ main :: proc(){
         },
     }
 
-    fmt.println(person)
+    fmt.println(person.name, person.age, person.health)
 }
