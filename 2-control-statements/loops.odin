@@ -4,7 +4,7 @@ import "core:fmt"
 
 main :: proc(){
     
-    for i := 0; i < 10; i+=1{
+    for i in 0..<10{
         fmt.printf("%d print forever until true\n", i+1)
     }
 }
