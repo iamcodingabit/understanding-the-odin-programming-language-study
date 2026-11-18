@@ -1,4 +1,4 @@
-package hellope
+package main
 
 import "core:fmt"
 main :: proc() {
